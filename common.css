@@ -1,0 +1,15 @@
+/* ========================= google fonts ======================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+/* ========================= variables ======================================= */
+
+:root{
+    --main-bg-color:#7C83FD;
+    --font1: 'Shadows Into Light', cursive;
+    --font2: 'Permanent Marker', cursive;
+    --color-number:yellow;
+    --color-text:yellow;
+    --color-border:#185ADB;
+}

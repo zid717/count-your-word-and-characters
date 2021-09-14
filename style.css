@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #93B5C6;     
+}
+
+/* ======================== main content ============================ */
+
+.container{
+
+    background-image: url("background.jpg");
+    max-width: 50vw;
+    margin:auto;
+    height: 545px;
+    opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid var(--color-border);
+    background-size: cover;
+    position:relative;
+    top:100px;
+    border-radius: 10px;
+}
+
+
+/* ======================== heading ============================ */
+
+
+.Heading{
+    width: 100%;
+}
+
+.Heading span{
+    font-family: var(--font1);
+color: var(--color-text);
+background: black;
+position: relative;
+padding: 7px;
+font-size: 24px;
+left: 15vw;
+top: 43px;
+border-radius: 7px;
+}
+
+.second-heading{
+
+    font-family: var(--font1);
+    color: var(--color-text);
+    background: black;
+    position: relative;
+    padding: 7px;
+    font-size: 24px;
+    left: 17vw;
+    top: 53px;
+    width: 227px;
+    border-radius: 7px;
+}
+
+
+
+/* ======================== text area ============================ */
+
+
+.text-area textarea{
+    position: absolute;
+    top: 164px;
+    border: 3px solid green;
+    left: 1vw;
+    color: black;
+    font-weight: bolder;
+    width: 46vw;
+} 
+
+
+
+/* ======================== word and character counter ============================ */
+
+.word_character{
+
+    width: 97%;
+    margin: auto;
+    position: relative;
+    top: 65%;
+    height: auto;
+    display: flex;
+}
+
+.bottom-element-left{
+
+    margin-left: 8%;
+    padding: 21px;
+    background: green;
+    width: 259px;
+    border-radius: 7px;
+    background-color: black;
+
+
+}
+
+.bottom-element-left p{
+    font-size: 27px;
+    color: white;
+    font-family: var(--font1);
+}
+
+.bottom-element-right{
+
+    margin-left: 9%;
+    padding: 21px;
+    background: green;
+    width: 428px;
+    border-radius: 7px;
+    background-color: black;
+
+
+}
+
+.bottom-element-right p{
+    font-size: 27px;
+    color: white;
+    font-family: var(--font1);
+}
+
+#words{
+
+    color:var(--color-number);
+}
+
+#characters{
+
+    color:var(--color-number);
+}
